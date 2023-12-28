@@ -58,6 +58,17 @@ for (let i = 0; i < num_cards; i++) {
 console.log("Complete card n."+i+" is: "+cards[i]); 
 
 }
+
+// check evey card have 1 symbol in common
+for (let j = 0; j < cards.length; j++) {
+  for (let k = 0; k < cards.length; k++) {
+    if (anythingInCommon(cards[j], cards[k])) {
+      console.log(cards[j]+" - "+ cards[k]))
+    }
+  
+  }
+  
+}
 /*
 This function check if two strings have common characters 
 source: https://stackoverflow.com/questions/20675621/fast-way-to-find-if-two-strings-have-a-character-in-common#20675760
