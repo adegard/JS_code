@@ -80,3 +80,18 @@ console.log("Complete card n."+i+" is: "+cards[i]);
 
 }
 
+function anythingInCommon(a, b){
+    if( b.length < a.length )
+        return anythingInCommon(b, a)
+
+    for( var i = 0, len = a.length; i < len; i++ ) 
+        if(b.indexOf(a[i]) != -1)
+            return true;
+  
+    return false
+}
+
+console.log(
+  anythingInCommon("aaaaaaaaaaaaaabbbbbbccccc", "xc"),
+  anythingInCommon("aaaaaaaaaaaaaabbbbbbccccc", "xax")
+)
