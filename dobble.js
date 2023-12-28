@@ -92,6 +92,6 @@ function anythingInCommon(a, b){
 }
 
 console.log(
-  anythingInCommon("aaaaaaaaaaaaaabbbbbbccccc", "xc"),
+  anythingInCommon("aaaaaaaaaaaaaabbbbbbccccc", "xjsjjsj"),
   anythingInCommon("aaaaaaaaaaaaaabbbbbbccccc", "xax")
 )
