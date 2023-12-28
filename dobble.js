@@ -26,6 +26,15 @@ var results = "";
 var card = new Array(num_symbcard);
 var cards = new Array(num_cards);
 
+// summary:
+console.log(
+  "####  INPUTS  ###"
+  "maxsymbols: "+maxsymbols+
+  "num_cards: "+num_cards+
+  "num_symbcard: "+num_symbcard
+  )
+
+
 // iterate evey card
 for (let i = 0; i < num_cards; i++) {
   cards[i] = "";
@@ -67,11 +76,14 @@ console.log("cards list: "+results);
 for (let j = 0; j < cards.length; j++) {
   for (let k = 0; k < cards.length; k++) {
     
-    if (anythingInCommon(cards[j], cards[k])) { //ok
+    if (anythingInCommon(cards[j], cards[k])) { //at least one symbol in common:
      // console.log(cards[j]+" OK "+ cards[k])
       }else{
         // not ok
-      console.log(cards[j]+" ! "+ cards[k])
+      console.log(
+        "cards not compatible, to eliminate: "+
+        cards[j]+" ! "+ cards[k]
+        )
     }
   
   }
