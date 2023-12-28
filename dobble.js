@@ -46,7 +46,7 @@ for (let i = 0; i < num_cards; i++) {
     var testunique=(cards[i]).includes(card[p]); 
 
      // change current symbol if aready exist:
-   while (p!=0 && testunique && maxiterations<5) { 
+   while (p!=0 && testunique && maxiterations<10) { 
 
     card[p]=symbols[Math.floor(Math.random() * symbols.length)];
 
