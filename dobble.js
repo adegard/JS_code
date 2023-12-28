@@ -5,6 +5,7 @@ Trying to generate playing cards (like Dobble)
 - it checks if every card have 1 symbol in common with other cards (to be eliminate)
 
 TODO: it checks if every card is unique 
+and ONLY in common
 */
 
 // symbols:
