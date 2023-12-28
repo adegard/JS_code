@@ -7,7 +7,7 @@ Trying to generate playing cards (like Dobble)
 */
 
 // symbols:
-const allsymbols =["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q"];
+const allsymbols =["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 
 // max symbols to use
 const maxsymbols= 10;
