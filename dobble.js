@@ -31,40 +31,21 @@ for (let i = 0; i < num_cards; i++) {
   maxiterations = 0;
   // iterate every symbols on each card:
   for (let p = 0; p < num_symbcard; p++) {
-  // console.log("Postion: "+p);
-     // randomize next symbol
-     // avoiding 2 times the same symbol on a cards:
+ 
+     // randomize next symbol, avoiding 2 times the same symbol on a cards:
    card[p]=symbols[Math.floor(Math.random() * symbols.length)];
      
         // testing unicity 
     var testunique=(cards[i]).includes(card[p]); 
-    /*
-    console.log(
-       "Intial : "+card[p]+
-       "..."+
-      "testunique :"+testunique
-      );
-     */
+
      // change current symbol if aready exist:
    while (p!=0 && testunique && maxiterations<5) { 
-     /*
-       console.log(
-         "p: "+p+
-         "test: "+testunique+
-         "iter: "+maxiterations
-         );
-       */
+
     card[p]=symbols[Math.floor(Math.random() * symbols.length)];
 
     // testing univity 
     testunique=(cards[i]).includes(card[p]);
-    /*
-    console.log(
-       "Adding : "+card[p]+
-       "..."+
-      "testunique :"+testunique
-      );
-     */ 
+
     // forced Stop
     maxiterations=maxiterations+1;
    }
@@ -72,14 +53,18 @@ for (let i = 0; i < num_cards; i++) {
    // resulting array, concatenated:
    cards[i] = cards[i]+card[p];
 
-  //console.log("card is: "+cards[i]); 
-
   }
 
 console.log("Complete card n."+i+" is: "+cards[i]); 
 
 }
+/*
+This function check if two strings have common characters 
+source: https://stackoverflow.com/questions/20675621/fast-way-to-find-if-two-strings-have-a-character-in-common#20675760
 
+eg.
+anythingInCommon("aaaaaaaaaaaaaabbbbbbccccc", "xax")
+*/
 function anythingInCommon(a, b){
     if( b.length < a.length )
         return anythingInCommon(b, a)
@@ -91,7 +76,3 @@ function anythingInCommon(a, b){
     return false
 }
 
-console.log(
-  anythingInCommon("aaaaaaaaaaaaaabbbbbbccccc", "xjsjjsj"),
-  anythingInCommon("aaaaaaaaaaaaaabbbbbbccccc", "xax")
-)
