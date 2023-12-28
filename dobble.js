@@ -14,7 +14,7 @@ const maxsymbols= 10;
 // cards total number:
 const num_cards = 20;
 // symbols number for each card:
-const num_symbcard = 4;
+const num_symbcard = 6;
 
 //initialization:
 const symbols= allsymbols.slice(0, maxsymbols-1);
