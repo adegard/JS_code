@@ -55,9 +55,12 @@ for (let i = 0; i < num_cards; i++) {
 
   }
 
-console.log("Complete card n."+i+" is: "+cards[i]); 
-
+// concanetatz for log
+results = results+" - "+ cards[i];
 }
+
+// cards
+console.log("cards list: "+results); 
 
 // check evey card have 1 symbol in common
 for (let j = 0; j < cards.length; j++) {
