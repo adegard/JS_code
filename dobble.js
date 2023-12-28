@@ -12,7 +12,7 @@ const allsymbols =["A","B","C","D","E","F","G","H","I","J"];
 // max symbols to use
 const maxsymbols= 5;
 // cards number to use:
-const num_cards = 15;
+const num_cards = 20;
 // symbols for each card:
 const num_symbcard = 5;
 
