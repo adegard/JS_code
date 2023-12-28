@@ -68,8 +68,9 @@ for (let j = 0; j < cards.length; j++) {
   for (let k = 0; k < cards.length; k++) {
     
     if (anythingInCommon(cards[j], cards[k])) { //ok
-      console.log(cards[j]+" OK "+ cards[k])
+     // console.log(cards[j]+" OK "+ cards[k])
       }else{
+        // not ok
       console.log(cards[j]+" ! "+ cards[k])
     }
   
