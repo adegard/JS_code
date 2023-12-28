@@ -17,7 +17,7 @@ const num_cards = 15;
 const num_symbcard = 5;
 
 //initialization:
-const symbols= allsymbols.slice(0, maxsymbols-1);
+const symbols= allsymbols.slice(0, maxsymbols);
 var maxiterations = 0;
 var random = 0;
 var results = "";
