@@ -8,7 +8,7 @@ TODO: it checks if every card is unique
 and ONLY in common
 */
 
-// symbols:
+// symbols: var should be "allsymbols"
 const allsymbols2 =["🎄","🌲","🎅","🎶","🎩","☀️","🎊","🐱","🔐","🏐","🏡","🤙","📏","😜","🎉","👍","🍕","🙏","🐎","🌅","📚","📖","🧜","#️⃣"];
 
 const allsymbols = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
