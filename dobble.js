@@ -20,6 +20,7 @@ const num_symbcard = 3;
 const symbols= allsymbols.slice(0, maxsymbols-1);
 var maxiterations = 0;
 var random = 0;
+var results = "";
 
 // define card array:
 var card = new Array(num_symbcard);
