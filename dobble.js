@@ -13,7 +13,7 @@ const allsymbols =["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","
 // max symbols to use
 const maxsymbols= 26; // max 26
 // cards number to use:
-const num_cards = 50; // mim 20 to be playable
+const num_cards = 30; // mim 20 to be playable
 // symbols for each card:
 const num_symbcard = 7; //from 3 to 8 to be playable
 
