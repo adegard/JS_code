@@ -9,11 +9,11 @@ Trying to generate playing cards (like Dobble)
 // symbols:
 const allsymbols =["A","B","C","D","E","F","G","H","I","J"];
 
-// max symbols
+// max symbols to use
 const maxsymbols= 5;
-// cards total number:
+// cards number to use:
 const num_cards = 15;
-// symbols number for each card:
+// symbols for each card:
 const num_symbcard = 5;
 
 //initialization:
@@ -46,7 +46,7 @@ for (let i = 0; i < num_cards; i++) {
     var testunique=(cards[i]).includes(card[p]); 
 
      // change current symbol if aready exist:
-   while (p!=0 && testunique && maxiterations<10) { 
+   while (p!=0 && testunique && maxiterations<20) { 
 
     card[p]=symbols[Math.floor(Math.random() * symbols.length)];
 
