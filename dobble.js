@@ -78,8 +78,8 @@ for (let j = 0; j < cards.length; j++) {
       }else{
         // not ok
       console.log(
-        "cards not compatible, to eliminate: "+
-        cards[j]+" ! "+ cards[k]
+        "cards not compatible: "+
+        cards[j]+" ! "+ cards[k]+", please eliminate: "+cards[k]
         )
     }
   
