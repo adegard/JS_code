@@ -3,7 +3,7 @@
 Trying to generate playing cards (like Dobble)
 - generates cards with different symbols (no double on same card)
 - it checks if every card have 1 symbol in common with other cards (to be eliminate)
-
+ 
 TODO: it checks if every card is unique 
 and ONLY in common
 */
@@ -66,12 +66,12 @@ for (let i = 0; i < num_cards; i++) {
 
   }
 
-// concanetatz for log
+// concaneta for log
 results = results+" - "+ cards[i];
 }
 
 // cards
-console.log("cards list: "+results); 
+console.log("cards list (before cleaning): "+results); 
 
 // check evey card have 1 symbol in common
 for (let j = 0; j < cards.length; j++) {
@@ -81,15 +81,27 @@ for (let j = 0; j < cards.length; j++) {
      // console.log(cards[j]+" OK "+ cards[k])
       }else{
         // not ok
+        cards.splice(k, 1); 
+        /*
       console.log(
         "cards not compatible: "+
         cards[j]+" ! "+ cards[k]+", please eliminate: "+cards[k]
         )
+        */
     }
   
   }
   
 }
+ 
+ // print cleaned array
+ for (let l = 0; l < cards.length; l++) {
+   results = results+" - "+ cards[l];
+ }
+ // cards
+console.log("cards list (cleaned): "+results); 
+
+
 /*
 This function check if two strings have common characters 
 source: https://stackoverflow.com/questions/20675621/fast-way-to-find-if-two-strings-have-a-character-in-common#20675760
