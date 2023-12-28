@@ -1,2 +1,2 @@
 # JS_code
-Sommes JS
+Some JS
