@@ -80,8 +80,8 @@ for (let j = 0; j < cards.length; j++) {
     if (anythingInCommon(cards[j], cards[k])) { //at least one symbol in common:
      // console.log(cards[j]+" OK "+ cards[k])
       }else{
-        // not ok
-        cards.splice(k, 1); 
+        // not ok, removed
+        cards.splice(j, 1); 
         /*
       console.log(
         "cards not compatible: "+
