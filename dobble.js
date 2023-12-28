@@ -10,11 +10,11 @@ Trying to generate playing cards (like Dobble)
 const allsymbols =["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 
 // max symbols to use
-const maxsymbols= 10;
+const maxsymbols= 20;
 // cards number to use:
-const num_cards = 20;
+const num_cards = 30;
 // symbols for each card:
-const num_symbcard = 5;
+const num_symbcard = 7;
 
 //initialization:
 const symbols= allsymbols.slice(0, maxsymbols);
