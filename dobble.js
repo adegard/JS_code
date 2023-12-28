@@ -1,9 +1,9 @@
 
 /*
 Trying to generate playing cards (like Dobble)
-1- it gets cards with different symbols (to be checked, not working properly)
+1- it gets cards with different symbols orders
 2- TODO: it checks if every card is unique 
-3- DONE: it checks if every card have 1 symbol in common with other cards
+3- it checks if every card have 1 symbol in common with other cards
 */
 
 // symbols:
