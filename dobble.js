@@ -62,9 +62,11 @@ console.log("Complete card n."+i+" is: "+cards[i]);
 // check evey card have 1 symbol in common
 for (let j = 0; j < cards.length; j++) {
   for (let k = 0; k < cards.length; k++) {
-    if (anythingInCommon(cards[j], cards[k])) { //do nothing 
+    
+    if (anythingInCommon(cards[j], cards[k])) { //ok
+      console.log(cards[j]+" OK "+ cards[k])
       }else{
-      console.log(cards[j]+" - "+ cards[k])
+      console.log(cards[j]+" ! "+ cards[k])
     }
   
   }
