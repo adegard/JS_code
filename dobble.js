@@ -28,7 +28,7 @@ var cards = new Array(num_cards);
 
 // summary:
 console.log(
-  "####  INPUTS  ###"
+  "####  INPUTS  ###"+
   "maxsymbols: "+maxsymbols+
   "num_cards: "+num_cards+
   "num_symbcard: "+num_symbcard
