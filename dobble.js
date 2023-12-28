@@ -10,11 +10,11 @@ z- TODO check taht every card is unique and have 1 symbol in common with other c
 const allsymbols =["A","B","C","D","E","F","G"];
 
 // max symbols
-const maxsymbols= 10;
+const maxsymbols= 9;
 // cards total number:
-const num_cards = 20;
+const num_cards = 10;
 // symbols number for each card:
-const num_symbcard = 6;
+const num_symbcard = 3;
 
 //initialization:
 const symbols= allsymbols.slice(0, maxsymbols-1);
