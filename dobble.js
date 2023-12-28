@@ -63,7 +63,7 @@ console.log("Complete card n."+i+" is: "+cards[i]);
 for (let j = 0; j < cards.length; j++) {
   for (let k = 0; k < cards.length; k++) {
     if (anythingInCommon(cards[j], cards[k])) {
-      console.log(cards[j]+" - "+ cards[k]))
+      console.log(cards[j]+" - "+ cards[k])
     }
   
   }
