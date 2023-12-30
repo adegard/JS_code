@@ -8,6 +8,9 @@ TODO: it checks if every card is unique
 and ONLY in common
 */
 
+getDobble();
+
+function getDobble(){
 // symbols: var should be "allsymbols"
 const allsymbols2 =["🎄","🌲","🎅","🎶","🎩","☀️","🎊","🐱","🔐","🏐","🏡","🤙","📏","😜","🎉","👍","🍕","🙏","🐎","🌅","📚","📖","🧜","#️⃣"];
 
@@ -96,7 +99,7 @@ for (let j = 0; j < cards.length; j++) {
  // cards
 console.log("cards list (cleaned): "+results); 
 
-
+}
 /*
 This function check if two strings have common characters 
 source: https://stackoverflow.com/questions/20675621/fast-way-to-find-if-two-strings-have-a-character-in-common#20675760
