@@ -31,7 +31,7 @@ var card = new Array(num_symbcard);
 var cards = new Array(num_cards);
 
 // summary:
-console.log("####  INPUTS  ###")
+console.log("####  HELLO  ###")
 console.log("maxsymbols: "+maxsymbols)
 console.log("num_cards: "+num_cards)
 console.log("num_symbcard: "+num_symbcard)
