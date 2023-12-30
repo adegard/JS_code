@@ -82,12 +82,7 @@ for (let j = 0; j < cards.length; j++) {
       }else{
         // not ok, removed
         cards.splice(j, 1); 
-        /*
-      console.log(
-        "cards not compatible: "+
-        cards[j]+" ! "+ cards[k]+", please eliminate: "+cards[k]
-        )
-        */
+
     }
   
   }
